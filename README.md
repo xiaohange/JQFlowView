@@ -1,9 +1,10 @@
 # JQFlowView
 卡片式无限自动轮播图 ，无限/自动轮播，可自定义非当前显示view缩放和透明的特效等；喜欢❤️就star一下吧！
-![]()
-![]()
-![]()
-![]()
+
+![](https://github.com/xiaohange/JQFlowView/blob/master/1.gif?raw=true) 
+![](https://github.com/xiaohange/JQFlowView/blob/master/2.gif?raw=true)
+![](https://github.com/xiaohange/JQFlowView/blob/master/3.gif?raw=true)
+![](https://github.com/xiaohange/JQFlowView/blob/master/4.gif?raw=true)
 ## Instalation
 
 Add the JQFlowView source files to your project.
