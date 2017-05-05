@@ -94,7 +94,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 80;
+    return 0.1;
 }
 
 #pragma mark -- 下面是轮播图 --
