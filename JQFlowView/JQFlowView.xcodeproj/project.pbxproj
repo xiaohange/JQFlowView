@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1619E3FCD81C8CC5090FE1AB /* libPods-JQFlowViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C749566B074FCEA781AB7F /* libPods-JQFlowViewTests.a */; };
+		47D24D751EBC4CCC00066224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24D741EBC4CCC00066224 /* main.m */; };
+		47D24D781EBC4CCC00066224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24D771EBC4CCC00066224 /* AppDelegate.m */; };
+		47D24D7B1EBC4CCC00066224 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24D7A1EBC4CCC00066224 /* ViewController.m */; };
+		47D24D7E1EBC4CCC00066224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D24D7C1EBC4CCC00066224 /* Main.storyboard */; };
+		47D24D801EBC4CCC00066224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D24D7F1EBC4CCC00066224 /* Assets.xcassets */; };
+		47D24D831EBC4CCC00066224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D24D811EBC4CCC00066224 /* LaunchScreen.storyboard */; };
+		47D24D8E1EBC4CCC00066224 /* JQFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24D8D1EBC4CCC00066224 /* JQFlowViewTests.m */; };
+		47D24D991EBC4CCC00066224 /* JQFlowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24D981EBC4CCC00066224 /* JQFlowViewUITests.m */; };
+		47D24DAB1EBC4DCD00066224 /* JQIndexBannerSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24DAA1EBC4DCD00066224 /* JQIndexBannerSubview.m */; };
+		47D24DAE1EBC4EB700066224 /* JQFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24DAD1EBC4EB700066224 /* JQFlowView.m */; };
+		47D24DB51EBC662A00066224 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D24DB41EBC662A00066224 /* MyViewController.m */; };
+		502EAECDD31B395BDD88B79D /* libPods-JQFlowViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8EE82E1CF98642B7422A11 /* libPods-JQFlowViewUITests.a */; };
+		6C8DABD3F700D83EFCA8C24A /* libPods-JQFlowView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380983D34C9B78A107A7BC59 /* libPods-JQFlowView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D24D8A1EBC4CCC00066224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D24D681EBC4CCC00066224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D24D6F1EBC4CCC00066224;
+			remoteInfo = JQFlowView;
+		};
+		47D24D951EBC4CCC00066224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D24D681EBC4CCC00066224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D24D6F1EBC4CCC00066224;
+			remoteInfo = JQFlowView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A14C08579896D9D966A758 /* Pods-JQFlowViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFlowViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQFlowViewTests/Pods-JQFlowViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2574016B5BA9EB14F2711F63 /* Pods-JQFlowView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFlowView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQFlowView/Pods-JQFlowView.release.xcconfig"; sourceTree = "<group>"; };
+		380983D34C9B78A107A7BC59 /* libPods-JQFlowView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFlowView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D24D701EBC4CCC00066224 /* JQFlowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQFlowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D24D741EBC4CCC00066224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47D24D761EBC4CCC00066224 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47D24D771EBC4CCC00066224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47D24D791EBC4CCC00066224 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47D24D7A1EBC4CCC00066224 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47D24D7D1EBC4CCC00066224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D24D7F1EBC4CCC00066224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47D24D821EBC4CCC00066224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47D24D841EBC4CCC00066224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D24D891EBC4CCC00066224 /* JQFlowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQFlowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D24D8D1EBC4CCC00066224 /* JQFlowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQFlowViewTests.m; sourceTree = "<group>"; };
+		47D24D8F1EBC4CCC00066224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D24D941EBC4CCC00066224 /* JQFlowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQFlowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D24D981EBC4CCC00066224 /* JQFlowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQFlowViewUITests.m; sourceTree = "<group>"; };
+		47D24D9A1EBC4CCC00066224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D24DA91EBC4DCD00066224 /* JQIndexBannerSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQIndexBannerSubview.h; sourceTree = "<group>"; };
+		47D24DAA1EBC4DCD00066224 /* JQIndexBannerSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQIndexBannerSubview.m; sourceTree = "<group>"; };
+		47D24DAC1EBC4EB700066224 /* JQFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFlowView.h; sourceTree = "<group>"; };
+		47D24DAD1EBC4EB700066224 /* JQFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQFlowView.m; sourceTree = "<group>"; };
+		47D24DB31EBC662A00066224 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		47D24DB41EBC662A00066224 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		5BFD9D3A22DAD2BA713A16A9 /* Pods-JQFlowViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFlowViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQFlowViewUITests/Pods-JQFlowViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CF4AB3481D7853A1F637257 /* Pods-JQFlowViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFlowViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQFlowViewUITests/Pods-JQFlowViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8EE82E1CF98642B7422A11 /* libPods-JQFlowViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFlowViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		821552844D01BECE41EB71CD /* Pods-JQFlowView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFlowView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQFlowView/Pods-JQFlowView.debug.xcconfig"; sourceTree = "<group>"; };
+		97C749566B074FCEA781AB7F /* libPods-JQFlowViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFlowViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9B1B47FC5E2FCFC7388D1A /* Pods-JQFlowViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFlowViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQFlowViewTests/Pods-JQFlowViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D24D6D1EBC4CCC00066224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8DABD3F700D83EFCA8C24A /* libPods-JQFlowView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D24D861EBC4CCC00066224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1619E3FCD81C8CC5090FE1AB /* libPods-JQFlowViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D24D911EBC4CCC00066224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502EAECDD31B395BDD88B79D /* libPods-JQFlowViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D24D671EBC4CCC00066224 = {
+			isa = PBXGroup;
+			children = (
+				47D24D721EBC4CCC00066224 /* JQFlowView */,
+				47D24D8C1EBC4CCC00066224 /* JQFlowViewTests */,
+				47D24D971EBC4CCC00066224 /* JQFlowViewUITests */,
+				47D24D711EBC4CCC00066224 /* Products */,
+				F2EFD9D2DE4B5E54B5EF91BF /* Pods */,
+				F21B4D9DA5427349E8C9A8A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47D24D711EBC4CCC00066224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D24D701EBC4CCC00066224 /* JQFlowView.app */,
+				47D24D891EBC4CCC00066224 /* JQFlowViewTests.xctest */,
+				47D24D941EBC4CCC00066224 /* JQFlowViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D24D721EBC4CCC00066224 /* JQFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				47D24DA81EBC4D7500066224 /* JQFlowView */,
+				47D24D761EBC4CCC00066224 /* AppDelegate.h */,
+				47D24D771EBC4CCC00066224 /* AppDelegate.m */,
+				47D24D791EBC4CCC00066224 /* ViewController.h */,
+				47D24D7A1EBC4CCC00066224 /* ViewController.m */,
+				47D24DB31EBC662A00066224 /* MyViewController.h */,
+				47D24DB41EBC662A00066224 /* MyViewController.m */,
+				47D24D7C1EBC4CCC00066224 /* Main.storyboard */,
+				47D24D7F1EBC4CCC00066224 /* Assets.xcassets */,
+				47D24D811EBC4CCC00066224 /* LaunchScreen.storyboard */,
+				47D24D841EBC4CCC00066224 /* Info.plist */,
+				47D24D731EBC4CCC00066224 /* Supporting Files */,
+			);
+			path = JQFlowView;
+			sourceTree = "<group>";
+		};
+		47D24D731EBC4CCC00066224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D24D741EBC4CCC00066224 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47D24D8C1EBC4CCC00066224 /* JQFlowViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				47D24D8D1EBC4CCC00066224 /* JQFlowViewTests.m */,
+				47D24D8F1EBC4CCC00066224 /* Info.plist */,
+			);
+			path = JQFlowViewTests;
+			sourceTree = "<group>";
+		};
+		47D24D971EBC4CCC00066224 /* JQFlowViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D24D981EBC4CCC00066224 /* JQFlowViewUITests.m */,
+				47D24D9A1EBC4CCC00066224 /* Info.plist */,
+			);
+			path = JQFlowViewUITests;
+			sourceTree = "<group>";
+		};
+		47D24DA81EBC4D7500066224 /* JQFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				47D24DA91EBC4DCD00066224 /* JQIndexBannerSubview.h */,
+				47D24DAA1EBC4DCD00066224 /* JQIndexBannerSubview.m */,
+				47D24DAC1EBC4EB700066224 /* JQFlowView.h */,
+				47D24DAD1EBC4EB700066224 /* JQFlowView.m */,
+			);
+			path = JQFlowView;
+			sourceTree = "<group>";
+		};
+		F21B4D9DA5427349E8C9A8A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				380983D34C9B78A107A7BC59 /* libPods-JQFlowView.a */,
+				97C749566B074FCEA781AB7F /* libPods-JQFlowViewTests.a */,
+				7F8EE82E1CF98642B7422A11 /* libPods-JQFlowViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2EFD9D2DE4B5E54B5EF91BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				821552844D01BECE41EB71CD /* Pods-JQFlowView.debug.xcconfig */,
+				2574016B5BA9EB14F2711F63 /* Pods-JQFlowView.release.xcconfig */,
+				11A14C08579896D9D966A758 /* Pods-JQFlowViewTests.debug.xcconfig */,
+				CB9B1B47FC5E2FCFC7388D1A /* Pods-JQFlowViewTests.release.xcconfig */,
+				7CF4AB3481D7853A1F637257 /* Pods-JQFlowViewUITests.debug.xcconfig */,
+				5BFD9D3A22DAD2BA713A16A9 /* Pods-JQFlowViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D24D6F1EBC4CCC00066224 /* JQFlowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D24D9D1EBC4CCC00066224 /* Build configuration list for PBXNativeTarget "JQFlowView" */;
+			buildPhases = (
+				C7BB8A46CD72E00C8E287552 /* [CP] Check Pods Manifest.lock */,
+				47D24D6C1EBC4CCC00066224 /* Sources */,
+				47D24D6D1EBC4CCC00066224 /* Frameworks */,
+				47D24D6E1EBC4CCC00066224 /* Resources */,
+				DC1EF736F4C89349AAD7822D /* [CP] Embed Pods Frameworks */,
+				A00F0EAB17BB81FFACECBBCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQFlowView;
+			productName = JQFlowView;
+			productReference = 47D24D701EBC4CCC00066224 /* JQFlowView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D24D881EBC4CCC00066224 /* JQFlowViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D24DA01EBC4CCC00066224 /* Build configuration list for PBXNativeTarget "JQFlowViewTests" */;
+			buildPhases = (
+				59B2E210612E2EC0AC9AE60E /* [CP] Check Pods Manifest.lock */,
+				47D24D851EBC4CCC00066224 /* Sources */,
+				47D24D861EBC4CCC00066224 /* Frameworks */,
+				47D24D871EBC4CCC00066224 /* Resources */,
+				60333A169188C1F21BC1C128 /* [CP] Embed Pods Frameworks */,
+				CE9B9705C969BE00537553CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D24D8B1EBC4CCC00066224 /* PBXTargetDependency */,
+			);
+			name = JQFlowViewTests;
+			productName = JQFlowViewTests;
+			productReference = 47D24D891EBC4CCC00066224 /* JQFlowViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47D24D931EBC4CCC00066224 /* JQFlowViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D24DA31EBC4CCC00066224 /* Build configuration list for PBXNativeTarget "JQFlowViewUITests" */;
+			buildPhases = (
+				809803AB5AB701CC2CB08742 /* [CP] Check Pods Manifest.lock */,
+				47D24D901EBC4CCC00066224 /* Sources */,
+				47D24D911EBC4CCC00066224 /* Frameworks */,
+				47D24D921EBC4CCC00066224 /* Resources */,
+				9324AE6FA6F6C7ABEEEED603 /* [CP] Embed Pods Frameworks */,
+				A192D30A0102B6CA9B30AB80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D24D961EBC4CCC00066224 /* PBXTargetDependency */,
+			);
+			name = JQFlowViewUITests;
+			productName = JQFlowViewUITests;
+			productReference = 47D24D941EBC4CCC00066224 /* JQFlowViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D24D681EBC4CCC00066224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HaRi;
+				TargetAttributes = {
+					47D24D6F1EBC4CCC00066224 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+					};
+					47D24D881EBC4CCC00066224 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47D24D6F1EBC4CCC00066224;
+					};
+					47D24D931EBC4CCC00066224 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47D24D6F1EBC4CCC00066224;
+					};
+				};
+			};
+			buildConfigurationList = 47D24D6B1EBC4CCC00066224 /* Build configuration list for PBXProject "JQFlowView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D24D671EBC4CCC00066224;
+			productRefGroup = 47D24D711EBC4CCC00066224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D24D6F1EBC4CCC00066224 /* JQFlowView */,
+				47D24D881EBC4CCC00066224 /* JQFlowViewTests */,
+				47D24D931EBC4CCC00066224 /* JQFlowViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D24D6E1EBC4CCC00066224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D24D831EBC4CCC00066224 /* LaunchScreen.storyboard in Resources */,
+				47D24D801EBC4CCC00066224 /* Assets.xcassets in Resources */,
+				47D24D7E1EBC4CCC00066224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D24D871EBC4CCC00066224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D24D921EBC4CCC00066224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59B2E210612E2EC0AC9AE60E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60333A169188C1F21BC1C128 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFlowViewTests/Pods-JQFlowViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809803AB5AB701CC2CB08742 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9324AE6FA6F6C7ABEEEED603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFlowViewUITests/Pods-JQFlowViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00F0EAB17BB81FFACECBBCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFlowView/Pods-JQFlowView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A192D30A0102B6CA9B30AB80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFlowViewUITests/Pods-JQFlowViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BB8A46CD72E00C8E287552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9B9705C969BE00537553CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFlowViewTests/Pods-JQFlowViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1EF736F4C89349AAD7822D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFlowView/Pods-JQFlowView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D24D6C1EBC4CCC00066224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D24D7B1EBC4CCC00066224 /* ViewController.m in Sources */,
+				47D24D781EBC4CCC00066224 /* AppDelegate.m in Sources */,
+				47D24D751EBC4CCC00066224 /* main.m in Sources */,
+				47D24DAE1EBC4EB700066224 /* JQFlowView.m in Sources */,
+				47D24DAB1EBC4DCD00066224 /* JQIndexBannerSubview.m in Sources */,
+				47D24DB51EBC662A00066224 /* MyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D24D851EBC4CCC00066224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D24D8E1EBC4CCC00066224 /* JQFlowViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D24D901EBC4CCC00066224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D24D991EBC4CCC00066224 /* JQFlowViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D24D8B1EBC4CCC00066224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D24D6F1EBC4CCC00066224 /* JQFlowView */;
+			targetProxy = 47D24D8A1EBC4CCC00066224 /* PBXContainerItemProxy */;
+		};
+		47D24D961EBC4CCC00066224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D24D6F1EBC4CCC00066224 /* JQFlowView */;
+			targetProxy = 47D24D951EBC4CCC00066224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D24D7C1EBC4CCC00066224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D24D7D1EBC4CCC00066224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47D24D811EBC4CCC00066224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D24D821EBC4CCC00066224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D24D9B1EBC4CCC00066224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47D24D9C1EBC4CCC00066224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D24D9E1EBC4CCC00066224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821552844D01BECE41EB71CD /* Pods-JQFlowView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFlowView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFlowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47D24D9F1EBC4CCC00066224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2574016B5BA9EB14F2711F63 /* Pods-JQFlowView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFlowView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFlowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47D24DA11EBC4CCC00066224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A14C08579896D9D966A758 /* Pods-JQFlowViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFlowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFlowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQFlowView.app/JQFlowView";
+			};
+			name = Debug;
+		};
+		47D24DA21EBC4CCC00066224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9B1B47FC5E2FCFC7388D1A /* Pods-JQFlowViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFlowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFlowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQFlowView.app/JQFlowView";
+			};
+			name = Release;
+		};
+		47D24DA41EBC4CCC00066224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF4AB3481D7853A1F637257 /* Pods-JQFlowViewUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFlowViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFlowViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQFlowView;
+			};
+			name = Debug;
+		};
+		47D24DA51EBC4CCC00066224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFD9D3A22DAD2BA713A16A9 /* Pods-JQFlowViewUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFlowViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFlowViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQFlowView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D24D6B1EBC4CCC00066224 /* Build configuration list for PBXProject "JQFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D24D9B1EBC4CCC00066224 /* Debug */,
+				47D24D9C1EBC4CCC00066224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D24D9D1EBC4CCC00066224 /* Build configuration list for PBXNativeTarget "JQFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D24D9E1EBC4CCC00066224 /* Debug */,
+				47D24D9F1EBC4CCC00066224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D24DA01EBC4CCC00066224 /* Build configuration list for PBXNativeTarget "JQFlowViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D24DA11EBC4CCC00066224 /* Debug */,
+				47D24DA21EBC4CCC00066224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D24DA31EBC4CCC00066224 /* Build configuration list for PBXNativeTarget "JQFlowViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D24DA41EBC4CCC00066224 /* Debug */,
+				47D24DA51EBC4CCC00066224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D24D681EBC4CCC00066224 /* Project object */;
+}
