@@ -116,20 +116,12 @@
     _pageFlowView.pageControl = pageControl;
     [_pageFlowView addSubview:pageControl];
     
-    //    [self.view addSubview:pageFlowView];
-    
-    /****************************
-     使用导航控制器(UINavigationController)
-     如果控制器中不存在UIScrollView或者继承自UIScrollView的UI控件
-     请使用UIScrollView作为JQFlowView的容器View,才会显示正常,如下
-     *****************************/
-    
     [_pageFlowView reloadData];
     [_scrollView addSubview:_pageFlowView];
     
 }
 
-#pragma mark JQFlowView Delegate
+#pragma mark JQFlowViewDelegate
 - (CGSize)sizeForPageInFlowView:(JQFlowView *)flowView
 {
     return CGSizeMake(KScreenWidth - 84, (KScreenWidth - 84) * 9 / 16);
@@ -140,7 +132,7 @@
     NSLog(@"点击了第%ld张图",(long)subIndex + 1);
 }
 
-#pragma mark JQFlowView Datasource
+#pragma mark JQFlowViewDatasource
 - (NSInteger)numberOfPagesInFlowView:(JQFlowView *)flowView
 {
     return self.imageArray.count;

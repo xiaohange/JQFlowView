@@ -49,7 +49,7 @@
     _pageFlowView.delegate = self;
     _pageFlowView.dataSource = self;
     _pageFlowView.minimumPageAlpha = 0.4;
-    _pageFlowView.minimumPageScale = 0.90;
+    _pageFlowView.minimumPageScale = 0.85;
     _pageFlowView.orginPageCount = self.imageArray.count;
     _pageFlowView.isOpenAutoScroll = YES;
     _pageFlowView.autoTime = 3.0;
@@ -61,11 +61,9 @@
     
     //    [self.view addSubview:pageFlowView];
     
-    /****************************
-     使用导航控制器(UINavigationController)
-     如果控制器中不存在UIScrollView或者继承自UIScrollView的UI控件
-     请使用UIScrollView作为JQFlowView的容器View,才会显示正常,如下
-     *****************************/
+    /*
+     使用导航控制器(UINavigationController)如果控制器中不存在UIScrollView或者继承自UIScrollView的UI控件,请使用UIScrollView作为JQFlowView的容器View,才会显示正常,如下
+    */
     
     UIScrollView *bottomScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, Width, (Width - 84) * 9 / 16 + 24 + 65)];
     bottomScrollView.backgroundColor = [UIColor whiteColor];
